@@ -6,11 +6,13 @@ class DispositivoElectronico:
     def __init__(self, marca: str, modelo: str, precio: float):
         self.marca = marca
         self.modelo = modelo
-        self.precio = precio
+        self.precio = precio  # en COP
         self.estado = "Disponible"
 
     def mostrar_informacion(self) -> str:
-        return f"{self.marca} {self.modelo} - ${self.precio:.2f} - Estado: {self.estado}"
+        precio_str = f"${self.precio:,.0f} COP".replace(",", ".")
+        return f"{self.marca} {self.modelo} - {precio_str} - Estado: {self.estado}"
+
 
 
 class Smartphone(DispositivoElectronico):
