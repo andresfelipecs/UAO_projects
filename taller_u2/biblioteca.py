@@ -60,15 +60,28 @@ class Biblioteca:
         if len(prestamos_usuario) >= 3:
             raise ValueError("El usuario ya tiene 3 préstamos activos.")
 
+        # Si no se especifican días, usar los valores por defecto
         if dias_prestamo is None:
             dias_prestamo = 14 if usuario.tipo == "estudiante" else 30
+        else:
+            # Validar que no supere los máximos permitidos
+            if usuario.tipo == "estudiante" and dias_prestamo > 14:
+                raise ValueError("Un estudiante no puede tener un préstamo mayor a 14 días.")
+            if usuario.tipo == "profesor" and dias_prestamo > 30:
+                raise ValueError("Un profesor no puede tener un préstamo mayor a 30 días.")
 
         fecha = date.today()
-        prestamo = Prestamo(usuario=usuario, libro=libro, fecha_prestamo=fecha, dias_prestamo=dias_prestamo)
+        prestamo = Prestamo(
+            usuario=usuario,
+            libro=libro,
+            fecha_prestamo=fecha,
+            dias_prestamo=dias_prestamo
+        )
 
         libro.prestar()
         self.prestamos.append(prestamo)
         return prestamo
+
 
     def return_book(self, user_id: str, book_code: str) -> dict:
         encontrado = None
