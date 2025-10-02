@@ -1,6 +1,12 @@
 # libro.py
-"""Clase Libro para el sistema de biblioteca.
-Integrantes: Carlos Alberto Dorado Vega
+"""
+Curso: Programación G02
+Docente: Breyner Posso M.Sc. 
+Integrantes:
+Jose Alberto Ortiz Valencia
+Carlos Aberto Dorado Vega
+Andres Felipe Castro Salazar
+Brayan Gutierrez Rengifo
 """
 from dataclasses import dataclass
 

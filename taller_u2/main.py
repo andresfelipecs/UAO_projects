@@ -1,5 +1,13 @@
 # main.py
-"""Script de interacción para la Biblioteca (CLI simple)."""
+"""
+Curso: Programación G02
+Docente: Breyner Posso M.Sc. 
+Integrantes:
+Jose Alberto Ortiz Valencia
+Carlos Aberto Dorado Vega
+Andres Felipe Castro Salazar
+Brayan Gutierrez Rengifo
+"""
 from datetime import date
 from biblioteca import Biblioteca
 from libro import Libro

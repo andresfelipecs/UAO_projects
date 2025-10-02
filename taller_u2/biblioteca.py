@@ -1,5 +1,14 @@
 # biblioteca.py
-"""Clase Biblioteca: gestiona libros, usuarios y préstamos."""
+"""
+Curso: Programación G02
+Docente: Breyner Posso M.Sc. 
+Integrantes:
+Jose Alberto Ortiz Valencia
+Carlos Aberto Dorado Vega
+Andres Felipe Castro Salazar
+Brayan Gutierrez Rengifo
+
+"""
 from typing import Dict, List
 from datetime import date
 

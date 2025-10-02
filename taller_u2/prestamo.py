@@ -1,5 +1,13 @@
 # prestamo.py
-"""Clase Prestamo: relación entre Usuario y Libro con fechas."""
+"""
+Curso: Programación G02
+Docente: Breyner Posso M.Sc. 
+Integrantes:
+Jose Alberto Ortiz Valencia
+Carlos Aberto Dorado Vega
+Andres Felipe Castro Salazar
+Brayan Gutierrez Rengifo
+"""
 from dataclasses import dataclass
 from datetime import date, timedelta
 from typing import Optional
