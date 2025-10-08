@@ -1,8 +1,34 @@
 [
     {
-        "cliente": "Ana L\u00f3pez",
+        "cliente": "Ana López",
         "telefono": "3156789123",
-        "cancha": "Cancha Sint\u00e9tica",
-        "hora": "17:00"
+        "cancha": "Cancha Sintética",
+        "fecha": "2025-10-08",
+        "hora": "17:00",
+        "costo": 40000
+    },
+    {
+        "cliente": "Carlos Ruiz",
+        "telefono": "3109988776",
+        "cancha": "Cancha Vóley Playa",
+        "fecha": "2025-10-08",
+        "hora": "18:00",
+        "costo": 30000
+    },
+    {
+        "cliente": "andres lopez",
+        "telefono": "20",
+        "cancha": "Cancha Vóley Playa",
+        "fecha": "2025-10-10",
+        "hora": "16:00",
+        "costo": 30000
+    },
+    {
+        "cliente": "carlos alberto",
+        "telefono": "315",
+        "cancha": "Cancha Vóley Playa",
+        "fecha": "2025-10-08",
+        "hora": "16:00",
+        "costo": 30000
     }
 ]
