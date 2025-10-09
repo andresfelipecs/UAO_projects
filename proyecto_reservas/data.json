@@ -17,7 +17,7 @@
     },
     {
         "cliente": "andres lopez",
-        "telefono": "20",
+        "telefono": "3177254545",
         "cancha": "Cancha Vóley Playa",
         "fecha": "2025-10-10",
         "hora": "16:00",
@@ -25,10 +25,26 @@
     },
     {
         "cliente": "carlos alberto",
-        "telefono": "315",
+        "telefono": "3151541519",
         "cancha": "Cancha Vóley Playa",
         "fecha": "2025-10-08",
         "hora": "16:00",
+        "costo": 30000
+    },
+    {
+        "cliente": "f f",
+        "telefono": "3177366417",
+        "cancha": "Cancha Sintética",
+        "fecha": "2025-10-08",
+        "hora": "13:00",
+        "costo": 40000
+    },
+    {
+        "cliente": "h h",
+        "telefono": "3177336417",
+        "cancha": "Cancha Vóley Playa",
+        "fecha": "2025-10-08",
+        "hora": "14:00",
         "costo": 30000
     }
 ]

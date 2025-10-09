@@ -97,7 +97,7 @@ class GestorReservas:
         except json.JSONDecodeError:
             # Si el archivo está corrupto o vacío, lo reinicia
             with open(self.archivo, "w", encoding="utf-8") as f:
-                json.dump([], f, indent=4)
+             json.dump([], f, indent=4)
 
     # ======================================
     #          FUNCIONES EXTRA

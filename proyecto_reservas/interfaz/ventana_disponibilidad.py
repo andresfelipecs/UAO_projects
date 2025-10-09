@@ -2,7 +2,7 @@ from PyQt6.QtWidgets import (
     QDialog, QVBoxLayout, QLabel, QCalendarWidget, QListWidget,
     QPushButton, QMessageBox, QInputDialog, QHBoxLayout
 )
-from PyQt6.QtCore import Qt
+from PyQt6.QtCore import Qt, QDate
 from clases.cliente import Cliente
 
 
@@ -13,7 +13,7 @@ class VentanaDisponibilidad(QDialog):
         self.setFixedSize(480, 650)
         self.gestor = gestor
 
-        self.fecha_seleccionada = None
+        self.fecha_seleccionada = QDate.currentDate().toString("yyyy-MM-dd")
         self.cancha_seleccionada = None
         self.hora_seleccionada = None
 
@@ -181,8 +181,8 @@ class VentanaDisponibilidad(QDialog):
             return
 
         telefono, ok2 = QInputDialog.getText(self, "Teléfono", "Ingrese el teléfono (solo números):")
-        if not ok2 or not telefono.strip() or not telefono.isdigit():
-            QMessageBox.warning(self, "Inválido", "El teléfono solo debe contener números.")
+        if not ok2 or not telefono.strip() or not telefono.isdigit() or len(telefono) < 10:
+            QMessageBox.warning(self, "Inválido", "El teléfono solo debe contener números y minimo 10 digitos.")
             return
 
         cliente = Cliente(nombre.strip(), telefono)

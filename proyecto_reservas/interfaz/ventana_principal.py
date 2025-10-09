@@ -11,7 +11,7 @@ class VentanaPrincipal(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("🏟️ Sistema de Reservas de Canchas Deportivas")
-        self.setFixedSize(900, 650)
+        self.setFixedSize(900, 600)
 
         self.gestor = GestorReservas()
         self.init_ui()
