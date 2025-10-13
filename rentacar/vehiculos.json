@@ -1,0 +1,82 @@
+[
+  {
+    "clase": "VehiculoGasolina",
+    "marca": "Toyota",
+    "modelo": "Corolla",
+    "anio": 2018,
+    "tipo": "Sedan",
+    "cilindraje": 1600
+  },
+  {
+    "clase": "VehiculoGasolina",
+    "marca": "Ford",
+    "modelo": "Fiesta",
+    "anio": 2010,
+    "tipo": "Hatchback",
+    "cilindraje": 1200
+  },
+  {
+    "clase": "VehiculoGasolina",
+    "marca": "Honda",
+    "modelo": "Civic",
+    "anio": 2005,
+    "tipo": "Sedan",
+    "cilindraje": 1800
+  },
+  {
+    "clase": "VehiculoGasolina",
+    "marca": "Chevrolet",
+    "modelo": "Spark",
+    "anio": 2014,
+    "tipo": "Hatchback",
+    "cilindraje": 998
+  },
+  {
+    "clase": "VehiculoGasolina",
+    "marca": "BMW",
+    "modelo": "X5",
+    "anio": 2020,
+    "tipo": "SUV",
+    "cilindraje": 3000
+  },
+  {
+    "clase": "VehiculoElectrico",
+    "marca": "Tesla",
+    "modelo": "Model 3",
+    "anio": 2021,
+    "tipo": "Sedan",
+    "autonomia_km": 500
+  },
+  {
+    "clase": "VehiculoElectrico",
+    "marca": "Nissan",
+    "modelo": "Leaf",
+    "anio": 2019,
+    "tipo": "Hatchback",
+    "autonomia_km": 240
+  },
+  {
+    "clase": "VehiculoElectrico",
+    "marca": "Renault",
+    "modelo": "Zoe",
+    "anio": 2018,
+    "tipo": "Hatchback",
+    "autonomia_km": 300
+  },
+  {
+    "clase": "VehiculoElectrico",
+    "marca": "BMW",
+    "modelo": "i3",
+    "anio": 2017,
+    "tipo": "Hatchback",
+    "autonomia_km": 170
+  },
+  {
+    "clase": "VehiculoElectrico",
+    "marca": "Hyundai",
+    "modelo": "Kona Electric",
+    "anio": 2022,
+    "tipo": "SUV",
+    "autonomia_km": 450
+  }
+]
