@@ -1,7 +1,13 @@
 class DispositivoElectronico:
     """
     Clase base para todos los dispositivos electrónicos.
+    Integrantes:
+        Jose Alberto Ortiz Valencia
+        Carlos Aberto Dorado Vega
+        Andres Felipe Castro Salazar
+        Brayan Gutierrez Rengifo
     """
+
 
     def __init__(self, marca: str, modelo: str, precio: float):
         self.marca = marca

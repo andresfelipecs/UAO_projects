@@ -1,5 +1,11 @@
 from clases import Smartphone, Tablet, Portatil
 
+#Integrantes:
+# Jose Alberto Ortiz Valencia
+# Carlos Aberto Dorado Vega
+# Andres Felipe Castro Salazar
+# Brayan Gutierrez Rengifo
+
 # Inventario de la tienda
 inventario = [
     Smartphone("Apple", "iPhone 15", 6_500_000, "iOS", 48),
