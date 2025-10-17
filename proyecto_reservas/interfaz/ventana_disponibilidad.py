@@ -26,6 +26,7 @@ class VentanaDisponibilidad(QDialog):
 
         self.calendario = QCalendarWidget()
         self.calendario.setGridVisible(True)
+        self.calendario.setMinimumDate(QDate.currentDate())  # 🔒 Evita fechas pasadas
         layout.addWidget(self.calendario)
 
         # === Paso 2: Cancha ===
@@ -82,6 +83,7 @@ class VentanaDisponibilidad(QDialog):
         # Conexiones
         self.calendario.selectionChanged.connect(self.actualizar_fecha)
         self.lista_horas.itemClicked.connect(self.seleccionar_hora)
+
 
     # ==================================================
     #                FUNCIONES DE ESTILO

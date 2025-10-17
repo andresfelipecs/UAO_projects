@@ -8,14 +8,6 @@
         "costo": 40000
     },
     {
-        "cliente": "Carlos Ruiz",
-        "telefono": "3109988776",
-        "cancha": "Cancha Vóley Playa",
-        "fecha": "2025-10-08",
-        "hora": "18:00",
-        "costo": 30000
-    },
-    {
         "cliente": "andres lopez",
         "telefono": "3177254545",
         "cancha": "Cancha Vóley Playa",
@@ -46,5 +38,13 @@
         "fecha": "2025-10-08",
         "hora": "14:00",
         "costo": 30000
+    },
+    {
+        "cliente": "nombre apellido",
+        "telefono": "6666666666",
+        "cancha": "Cancha Techada",
+        "fecha": "2025-10-14",
+        "hora": "14:00",
+        "costo": 35000
     }
 ]

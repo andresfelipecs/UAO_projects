@@ -1,3 +1,9 @@
+#Integrantes:
+# Jose Alberto Ortiz Valencia
+# Carlos Aberto Dorado Vega
+# Andres Felipe Castro Salazar
+# Brayan Gutierrez Rengifo
+
 import sys
 from PyQt6.QtWidgets import QApplication
 from interfaz.ventana_principal import VentanaPrincipal
